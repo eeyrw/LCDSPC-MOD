@@ -36,3 +36,9 @@
 
 # CodeBlocks
 *.layout
+
+# BASS
+!basswasapi.dll
+!basswasapi.lib
+!bass.dll
+!bass.lib
