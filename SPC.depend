@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1373038303 source:c:\codeblocks\plugins\spc\spccfg.c
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	"SPC.h"
+
+1373032814 c:\codeblocks\plugins\spc\spc.h
+
+1337678618 source:c:\codeblocks\plugins\spc\spc_log.c
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<sys/timeb.h>
+	"version.h"
+	"SPC.h"
+
+1378881776 c:\codeblocks\plugins\spc\version.h
+
+1353017441 source:c:\codeblocks\plugins\spc\spcio.c
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<sys/timeb.h>
+	"SPC.h"
+	"bass.h"
+	"basswasapi.h"
+
+1337678623 c:\codeblocks\plugins\spc\bass.h
+	<wtypes.h>
+	<stdint.h>
+
+1337678623 c:\codeblocks\plugins\spc\basswasapi.h
+	"bass.h"
+
+1378881722 source:c:\codeblocks\plugins\spc\spc.cpp
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<sys/timeb.h>
+	"SPC.h"
+	"version.h"
+
+1515277872 source:c:\users\yrw\desktop\lcdspc\sourcecode\sourcecode\spc.cpp
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<sys/timeb.h>
+	"SPC.h"
+	"version.h"
+
+1515277872 c:\users\yrw\desktop\lcdspc\sourcecode\sourcecode\spc.h
+
+1600830640 c:\users\yrw\desktop\lcdspc\sourcecode\sourcecode\version.h
+
+1515277872 source:c:\users\yrw\desktop\lcdspc\sourcecode\sourcecode\spc_log.c
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<sys/timeb.h>
+	"version.h"
+	"SPC.h"
+
+1600828751 source:c:\users\yrw\desktop\lcdspc\sourcecode\sourcecode\spccfg.c
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	"SPC.h"
+
+1600823713 source:c:\users\yrw\desktop\lcdspc\sourcecode\sourcecode\spcio.c
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<sys/timeb.h>
+	"SPC.h"
+	"bass.h"
+	"basswasapi.h"
+
+1515277871 c:\users\yrw\desktop\lcdspc\sourcecode\sourcecode\bass.h
+	<wtypes.h>
+	<stdint.h>
+
+1515277871 c:\users\yrw\desktop\lcdspc\sourcecode\sourcecode\basswasapi.h
+	"bass.h"
+
