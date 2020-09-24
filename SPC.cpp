@@ -13,7 +13,7 @@
 #define DLLEXPORT __declspec(dllexport)
 
 // Custom character definitions for the bars - note the first entry is not used (Yes it is!)
-// $Chr(SPC_Global_BlackChar) is used for a full bar (normally 255)
+// $Chr(SPC_Global_BlackChar) is used for a full bar (normally 0)
 char *custdef[9] = {"0,0,0,0,0,0,0,0", "0,0,0,0,0,0,0,31", "0,0,0,0,0,0,31,31", "0,0,0,0,0,31,31,31",
                     "0,0,0,0,31,31,31,31", "0,0,0,31,31,31,31,31", "0,0,31,31,31,31,31,31", "0,31,31,31,31,31,31,31",
                     "31,31,31,31,31,31,31,31"};

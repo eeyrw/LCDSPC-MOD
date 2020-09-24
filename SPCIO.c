@@ -183,11 +183,11 @@ void CALLBACK SPC_UpdateSpectrum(UINT uTimerID, UINT uMsg, DWORD dwUser, DWORD d
         if (SPC_UseWasapi == 1) // on Vista or Win7
         {
             BASS_WASAPI_SetDevice(audio_device);                                      // set device context to input/loopback device
-            i = BASS_WASAPI_GetData(fft, BASS_DATA_FFT2048 | BASS_DATA_FFT_NOWINDOW); // get the FFT data
+            i = BASS_WASAPI_GetData(fft, BASS_DATA_FFT2048);// | BASS_DATA_FFT_NOWINDOW); // get the FFT data
         }
         else // on XP or earlier
         {
-            i = BASS_ChannelGetData(SPC_chan, fft, BASS_DATA_FFT2048 | BASS_DATA_FFT_NOWINDOW);
+            i = BASS_ChannelGetData(SPC_chan, fft, BASS_DATA_FFT2048);// | BASS_DATA_FFT_NOWINDOW);
             if (i < 0)
                 Error("Timer", "ChannelGetData-"); // get the FFT data
         }

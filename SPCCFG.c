@@ -12,7 +12,7 @@ int SPC_Global_AudioDevice = 0;
 int SPC_Global_AudioInput = 0;
 float SPC_Global_scale = 1.0;
 int SPC_UseWasapi = 1;
-int SPC_Global_BlackChar = 255;
+int SPC_Global_BlackChar = 0;
 
 //==============================================================================
 // function to copy a string and set the first newline character to 0
