@@ -51,7 +51,7 @@ extern void __stdcall SPC_read_cfg(int callnum)
         SPC_Global_AudioDevice = 0;
         SPC_Global_scale = 1.0;
         SPC_UseWasapi = SPC_check_os();
-        SPC_Global_BlackChar = 255;
+        SPC_Global_BlackChar = 0;
     }
 
     SPC_log(mod, "Started");

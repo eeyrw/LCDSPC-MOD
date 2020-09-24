@@ -13,7 +13,7 @@
 #define DLLEXPORT __declspec(dllexport)
 
 // Custom character definitions for the bars - note the first entry is not used (Yes it is!)
-// $Chr(SPC_Global_BlackChar) is used for a full bar (normally 0)
+// $Chr(SPC_Global_BlackChar) is used for a full bar (normally 255)
 char *custdef[9] = {"0,0,0,0,0,0,0,0", "0,0,0,0,0,0,0,31", "0,0,0,0,0,0,31,31", "0,0,0,0,0,31,31,31",
                     "0,0,0,0,31,31,31,31", "0,0,0,31,31,31,31,31", "0,0,31,31,31,31,31,31", "0,31,31,31,31,31,31,31",
                     "31,31,31,31,31,31,31,31"};
@@ -110,6 +110,8 @@ extern "C" DLLEXPORT char *__stdcall function1(char *param1, char *param2)
     if (numlines > 4)
         numlines = 4;
     spectrum_height = numlines * 8;
+
+    str[0]=0; // Erase the line char from "i = substrcpy((unsigned char *)str, (unsigned char *)param1, '#');"
 
     smooth = 1;
     if (param1[3] == '#')
